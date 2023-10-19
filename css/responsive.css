@@ -1,0 +1,209 @@
+@media (min-width: 320px) and (max-width: 575px){
+    /* welcome part css start */
+    .desktop-header{
+        display: none;
+    }
+    .first-header-icon ul li{
+        float: left;
+        padding: 0 6px;
+    }
+    .first-header-icon ul li a{
+        color: white;
+    }
+    .header-icon ul li a {
+        color: white;
+        padding: 0 6px;
+        transition: all linear 0.3s;
+    }
+    .welcome p {
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 4px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* welcome part css start */
+
+    /* banner part css start */
+    .banner-overly {
+        padding: 75px 0;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .banner-content p{
+        padding: 0;
+    }
+    /* banner part css end */
+
+    /* about part css start */
+    .about-content p:first-child {
+        padding-bottom: 30px;
+    }
+    .about-content p{
+        text-align: justify;
+    }
+    /* about part css end */
+
+    /* Service part css start */
+    .service-main {
+        margin-top: 70px;
+    }
+    /* Service part css end */
+
+    /* portfolio part css start */
+    .big-img{
+        margin-bottom: 20px;
+    }
+    /* portfolio part css end */
+
+    /* team part css start */
+    .team-title p{
+        margin-bottom: 20px;
+    }
+    /* team part css end */
+
+    /* testimonial part css start */
+    .testi-content{
+        margin-bottom: 20px;
+    }
+    .piramid {
+        top: -7%;
+        left: 45%;
+    }
+    /* testimonial part css end */
+
+    /* footer part css start */
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-text p {
+        font-size: 13px;
+        line-height: 27px;
+        text-align: center;
+    }
+    .x-sm-hidden{
+        display: none;
+    }
+    .footer-common-head h4 {
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .footer-icon a{
+        margin-left: 20px;
+    }
+    .x-sm-menu{
+        margin-left: 60px;
+    }
+    .copyright-content h6{
+        font-size: 13px;
+    }
+    /* footer part css end */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    .mobile-header{
+        display: none;
+    }
+    .header-icon ul li a {
+        color: white;
+        padding: 0 20px;
+        transition: all linear 0.3s;
+    }
+
+    /* banner part css start */
+    .banner-content {
+        text-align: center;
+    }
+    .banner-content p {
+        padding-left: 0px;
+    }
+    /* banner part css end */
+
+    /* about part css start */
+    .x-sm-hidden{
+        display: none;
+    }
+    .about-content p:first-child {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .about-content p {
+        line-height: 25px;
+    }
+    /* about part css end */
+
+    /* Service part css start */
+    .ser-content {
+        margin-bottom: 40px;
+    }
+    /* Service part css end */
+    
+    /* portfolio part css start */
+    .big-img {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    /* portfolio part css end */
+
+    /* team part css start */
+    .team-title {
+        margin-bottom: 26px;
+    }
+    /* team part css end */
+
+    /* testimonial part css start */
+    .testi-content {
+        margin-bottom: 30px;
+    }
+    /* testimonial part css end */
+
+    /* footer part css start */
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-text p {
+        font-size: 13px;
+        line-height: 27px;
+        text-align: center;
+    }
+    .x-sm-hidden{
+        display: none;
+    }
+    .footer-common-head h4 {
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .footer-icon a{
+        margin-left: 135px;
+    }
+    .x-sm-menu{
+        margin-left: 135px;
+    }
+    /* footer part css end */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .mobile-header{
+        display: none;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }  */
